@@ -3,13 +3,13 @@
 /// Recursivo/////////////////////////////
 void bubbleSortRecursao(int v[], int n);
 
-void insertionSortRecursiveRecursao(int v[], int n);
+void insertionSortRecursao(int v[], int n);
 
 void selectionSortRecursao(int v[], int n, int i=0);
 
-void quickSortRecursivo(int v[], int min, int max);
+void quickSortRecursao(int v[], int min, int max);
 
-void mergesortRecursivo(int A[], int p, int r);
+void mergesortRecursao(int A[], int p, int r);
 
 void heapSortRecursao(int v[], int n);
 

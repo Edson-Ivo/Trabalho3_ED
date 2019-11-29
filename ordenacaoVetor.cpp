@@ -17,11 +17,11 @@ void bubbleSortRecursao(int v[], int n) {
     } 
 }
 
-void insertionSortRecursiveRecursao(int v[], int n) { 
+void insertionSortRecursao(int v[], int n) { 
     if (n <= 1) 
         return;     
   
-    insertionSortRecursiveRecursao( v, n-1 ); 
+    insertionSortRecursao( v, n-1 ); 
     int key = v[n-1]; 
     int j = n-2; 
   
@@ -42,7 +42,7 @@ void mergesortRecursao(int A[], int p, int r) {
     }
 }
 
-void selectionSortRecursao(int v[], int n, int i=0){
+void selectionSortRecursao(int v[], int n, int i){
 	int min = i;
 	for (int j = i + 1; j < n; j++)
 	{
@@ -58,7 +58,7 @@ void selectionSortRecursao(int v[], int n, int i=0){
 
 void quickSortRecursao(int v[], int min, int max) {  
     if (min < max){  
-        int x = separa(v, min, max);  
+        int x = separaRecursao(v, min, max);  
         quickSortRecursao(v, min, x - 1);  
         quickSortRecursao(v, x + 1, max);  
     }  
@@ -192,7 +192,7 @@ void quickSortIterativo(int v[], int l, int h) {
     while (top >= 0) { 
         h = vec[top--]; 
         l = vec[top--]; 
-        int p = separa(v, l, h); 
+        int p = separaIterativo(v, l, h); 
   
        
         if (p - 1 > l) { 
