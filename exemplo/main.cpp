@@ -18,7 +18,7 @@ void CocktailSort(int n, int A[]) {
         // assim como o bubblesort 
         for (int i = inicio; i < fim; i++) 
             if (A[i] > A[i+1]) { 
-                std::swap(A[i], A[i + 1]); 
+                swap(A[i], A[i + 1]); 
                 trocou = true; 
             } 
   
@@ -41,7 +41,7 @@ void CocktailSort(int n, int A[]) {
         // fazendo a mesma comparacao que no estagio anterior 
         for (int i = fim-1; i >= inicio; i--) 
             if (A[i] > A[i+1]) { 
-                std::swap(A[i],A[i+1]); 
+                swap(A[i],A[i+1]); 
                 trocou = true; 
             } 
   
@@ -58,7 +58,7 @@ void BubbleSort(int n, int A[]) {
     for (int i = 0; i < n-1; i++)      
 		for (int j = 0; j < n-i-1; j++)  
 			if (A[j] > A[j+1])  
-				std::swap(A[j], A[j+1]);  
+				swap(A[j], A[j+1]);  
 }
 
 /** 
@@ -68,7 +68,7 @@ void gera_dados(int num_iteracoes, const int vetor_tam[])
 {
 	for(int iteracao = 0; iteracao < num_iteracoes; iteracao++) {
 		for(int semente = 0; semente < 5; semente++) {	
-			std::string nome_arquivo = "dados/random"+std::to_string(iteracao)+"_"+std::to_string(semente)+".dat";
+			string nome_arquivo = "dados/random"+to_string(iteracao)+"_"+to_string(semente)+".dat";
 			ofstream fout(nome_arquivo.c_str(), ios::binary);
 			srand(time(NULL)); // gera semente
 			int r;
@@ -104,7 +104,7 @@ int main()
 { 
 	// Os tamanhos dos seis vetores a serem testados estao
 	// guardados neste vetor 'tam'
-	const int tam[] = {500,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000,11000,12000,13000,14000};
+	const int tam[] = {1000,5000,10000,50000,100000,500000,1000000};
 	
 	int TOTAL_N = sizeof(tam)/sizeof(tam[0]); // determina tamanho do vetor 'tam'
 	
@@ -115,7 +115,7 @@ int main()
 	// Etapa 2 - Execução do CocktailSort
 	// Para cada arquivo gerado na etapa 1, ler o arquivo e popular
 	// um vetor de inteiros com os dados lidos.
-	std::ofstream ofs("resultados/resultadoCocktail.txt", std::ofstream::out ); // abre arquivo de resultados do cocktail
+	ofstream ofs("resultados/resultadoCocktail.txt", ofstream::out ); // abre arquivo de resultados do cocktail
 	
 	for(int iteracao = 0; iteracao < TOTAL_N; iteracao++) {
 		
@@ -129,21 +129,21 @@ int main()
 		// execucao dessas cinco chamadas e depois salvar esse tempo medio em arquivo.
 		for(int semente = 0; semente < 5; semente++) 
 		{	
-			string nome_arquivo = "dados/random"+std::to_string(iteracao)+"_"+std::to_string(semente)+".dat";
+			string nome_arquivo = "dados/random"+to_string(iteracao)+"_"+to_string(semente)+".dat";
 		
 			ler_dados(tamanho_vetor, vetor, nome_arquivo.c_str());
 			
 			// CocktailSort ------------------------------------------------------
 			// obtendo o tempo inicial
-			auto ini = std::chrono::high_resolution_clock::now();
+			auto ini = chrono::high_resolution_clock::now();
 		
 			CocktailSort(tamanho_vetor, vetor); // ordena o vetor usando o CocktailSort
 		
 			// obtendo o tempo final
-			auto fim = std::chrono::high_resolution_clock::now();
+			auto fim = chrono::high_resolution_clock::now();
 		
 			// obtendo a duração total da ordenação
-			auto duracao_cocktail = std::chrono::duration_cast<std::chrono::microseconds>(fim - ini).count();
+			auto duracao_cocktail = chrono::duration_cast<chrono::microseconds>(fim - ini).count();
 			
 			duracao_media_cocktail += duracao_cocktail;
 			
@@ -162,7 +162,7 @@ int main()
 	// Etapa 3 - Execução do BubbleSort
 	// Para cada arquivo gerado na etapa 1, ler o arquivo e popular
 	// um vetor de inteiros com os dados lidos.
-	std::ofstream ofs2("resultados/resultadoBubble.txt", std::ofstream::out ); // abre arquivo de resultados do bubblesort
+	ofstream ofs2("resultados/resultadoBubble.txt", ofstream::out ); // abre arquivo de resultados do bubblesort
 	
 	for(int iteracao = 0; iteracao < TOTAL_N; iteracao++) {
 		
@@ -176,21 +176,21 @@ int main()
 		// execucao dessas cinco chamadas e depois salvar esse tempo medio em arquivo.
 		for(int semente = 0; semente < 5; semente++) 
 		{	
-			string nome_arquivo = "dados/random"+std::to_string(iteracao)+"_"+std::to_string(semente)+".dat";
+			string nome_arquivo = "dados/random"+to_string(iteracao)+"_"+to_string(semente)+".dat";
 		
 			ler_dados(tamanho_vetor, vetor, nome_arquivo.c_str());
 			
 			// BubbleSort ---------------------------------------------------------
 			// obtendo o tempo inicial
-			auto ini2 = std::chrono::high_resolution_clock::now();
+			auto ini2 = chrono::high_resolution_clock::now();
 		
 			BubbleSort(tamanho_vetor, vetor); // ordena o vetor usando o CocktailSort
 		
 			// obtendo o tempo final
-			auto fim2 = std::chrono::high_resolution_clock::now();
+			auto fim2 = chrono::high_resolution_clock::now();
 		
 			// obtendo a duração total da ordenação
-			auto duracao_bubble = std::chrono::duration_cast<std::chrono::microseconds>(fim2 - ini2).count();
+			auto duracao_bubble = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
 			
 			duracao_media_bubble += duracao_bubble;			
 		}	
