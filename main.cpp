@@ -85,13 +85,14 @@ int main()
 			auto ini = chrono::high_resolution_clock::now();
 		
 			bubblesortIterativoVetor(vetor, tamanho_vetor); // ordena o vetor usando o bubble
+            // obtendo o tempo final
+			auto fim = chrono::high_resolution_clock::now();
 
             comparacoes+=bubblesortIterativoVetorCom(vetor,tamanho_vetor);
 
             trocas+=bubblesortIterativoVetorTroca(vetor,tamanho_vetor);
 		
-			// obtendo o tempo final
-			auto fim = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_bubble = chrono::duration_cast<chrono::microseconds>(fim - ini).count();
@@ -140,11 +141,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			selectionsortIterativoVetor(vetor, tamanho_vetor); // ordena o vetor usando o SelectSort
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
            comparacoes+=selectionsortIterativoVetorCom(vetor, tamanho_vetor); // ordena o vetor usando o SelectSort
            trocas+= selectionsortIterativoVetorTroca(vetor, tamanho_vetor); // ordena o vetor usando o SelectSort
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_Select = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -191,11 +193,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			insertionsortIterativoVetor(vetor, tamanho_vetor); // ordena o vetor usando o Insert
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
            comparacoes+= insertionsortIterativoVetorCom(vetor, tamanho_vetor); // ordena o vetor usando o Insert
            trocas+= insertionsortIterativoVetorTroca(vetor, tamanho_vetor); // ordena o vetor usando o Insert
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_Insert = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -242,11 +245,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 		   bubbleSortRecursaoVetor(vetor, tamanho_vetor); // ordena o vetor usando o BubbleSortRecursivo
+           // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
            comparacoes+= bubbleSortRecursaoVetorCom(vetor, tamanho_vetor); // ordena o vetor usando o BubbleSortRecursivo
            trocas+= bubbleSortRecursaoVetorTroca(vetor, tamanho_vetor); // ordena o vetor usando o BubbleSortRecursivo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_bubbleR = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -293,11 +297,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			selectionSortRecursaoVetor(vetor, tamanho_vetor); // ordena o vetor usando o Select SortRecursivo
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
            trocas+= selectionSortRecursaoVetorTroca(vetor, tamanho_vetor); // ordena o vetor usando o Select SortRecursivo
           comparacoes+= selectionSortRecursaoVetorCom(vetor, tamanho_vetor); // ordena o vetor usando o Select SortRecursivo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_selectR = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -344,11 +349,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			insertionSortRecursaoVetor(vetor, tamanho_vetor); // ordena o vetor usando o insert SortRecursivo
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
             trocas+=insertionSortRecursaoVetorTroca(vetor, tamanho_vetor); // ordena o vetor usando o insert SortRecursivo
             comparacoes+=insertionSortRecursaoVetorCom(vetor, tamanho_vetor); // ordena o vetor usando o insert SortRecursivo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_insertR = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -395,11 +401,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			quickSortRecursaoVetor(vetor,0,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
+            auto fim2 = chrono::high_resolution_clock::now();
             trocas+= quickSortRecursaoVetorTroca(vetor,0,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
             comparacoes+= quickSortRecursaoVetorCom(vetor,0,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
 		
 			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_insertR = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -446,11 +453,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			mergesortRecursaoVetor(vetor,0,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
           trocas+=  mergesortRecursaoVetorTroca(vetor,0,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
           comparacoes+=  mergesortRecursaoVetorCom(vetor,0,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_mergeR = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -497,11 +505,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			heapSortRecursaoVetor(vetor,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
             trocas+=heapSortRecursaoVetorTroca(vetor,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
             comparacoes+=heapSortRecursaoVetorCom(vetor,tamanho_vetor); // ordena o vetor usando o quick SortRecursivo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_heapR = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -548,11 +557,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			quickSortIterativoVetor(vetor,0,tamanho_vetor); // ordena o vetor usando o QuickSortIterativo
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
             trocas+=quickSortIterativoVetorTroca(vetor,0,tamanho_vetor); // ordena o vetor usando o QuickSortIterativo
             comparacoes+=quickSortIterativoVetorCom(vetor,0,tamanho_vetor); // ordena o vetor usando o QuickSortIterativo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_quickI = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -599,11 +609,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			mergeSortIterativoVetor(vetor,tamanho_vetor); // ordena o vetor usando o MergeSortIterativo
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
            trocas+= mergeSortIterativoVetorTroca(vetor,tamanho_vetor); // ordena o vetor usando o MergeSortIterativo
             comparacoes+=mergeSortIterativoVetorCom(vetor,tamanho_vetor); // ordena o vetor usando o MergeSortIterativo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_mergeI = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -650,11 +661,12 @@ int main()
 			auto ini2 = chrono::high_resolution_clock::now();
 		
 			heapsortIterativoVetor(vetor,tamanho_vetor); // ordena o vetor usando o HeapSortIterativo
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
             trocas+=heapsortIterativoVetorTroca(vetor,tamanho_vetor); // ordena o vetor usando o HeapSortIterativo
             comparacoes+=heapsortIterativoVetorCom(vetor,tamanho_vetor); // ordena o vetor usando o HeapSortIterativo
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_heapI = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -696,21 +708,22 @@ int main()
 		
 			ler_dados(tamanho_vetor, vetor, nome_arquivo.c_str());
 			
-			// BubbleIterativoLista ---------------------------------------------------------
-			// obtendo o tempo inicial
-			auto ini2 = chrono::high_resolution_clock::now();
+			
 
             QX_List *l=new QX_List;
             for(int i=0;i<tamanho_vetor;i++){
                 l->push_back(vetor[i]);
             }
-		
+		// BubbleIterativoLista ---------------------------------------------------------
+			// obtendo o tempo inicial
+			auto ini2 = chrono::high_resolution_clock::now();
 			bubblesortIterativoLista(l); // ordena o vetor usando o BubbleIterativoLista
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
             trocas+=bubblesortIterativoListaTroca(l); // ordena o vetor usando o BubbleIterativoLista
             comparacoes+=bubblesortIterativoListaCom(l); // ordena o vetor usando o BubbleIterativoLista
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_bubblesortIterativoLista = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -754,21 +767,23 @@ int main()
 		
 			ler_dados(tamanho_vetor, vetor, nome_arquivo.c_str());
 			
-			// BubbleIterativoLista ---------------------------------------------------------
-			// obtendo o tempo inicial
-			auto ini2 = chrono::high_resolution_clock::now();
+			
 
             QX_List *l=new QX_List;
             for(int i=0;i<tamanho_vetor;i++){
                 l->push_back(vetor[i]);
             }
-		
+
+            // BubbleIterativoLista ---------------------------------------------------------
+			// obtendo o tempo inicial
+			auto ini2 = chrono::high_resolution_clock::now();
 			insertionsortIterativoLista(l); // ordena o vetor usando o BubbleIterativoLista
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
             trocas+=insertionsortIterativoListaTroca(l); // ordena o vetor usando o BubbleIterativoLista
             comparacoes+=insertionsortIterativoListaCom(l); // ordena o vetor usando o BubbleIterativoLista
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_InsertLista = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();
@@ -812,21 +827,23 @@ int main()
 		
 			ler_dados(tamanho_vetor, vetor, nome_arquivo.c_str());
 			
-			// selectionsortLista ---------------------------------------------------------
-			// obtendo o tempo inicial
-			auto ini2 = chrono::high_resolution_clock::now();
+			
 
             QX_List *l=new QX_List;
             for(int i=0;i<tamanho_vetor;i++){
                 l->push_back(vetor[i]);
             }
-		
+            // selectionsortLista ---------------------------------------------------------
+			// obtendo o tempo inicial
+			auto ini2 = chrono::high_resolution_clock::now();
 			selectionsortIterativoLista(l); // ordena o vetor usando o selectionsortLista
+            // obtendo o tempo final
+			auto fim2 = chrono::high_resolution_clock::now();
+
             trocas+=selectionsortIterativoListaTroca(l); // ordena o vetor usando o selectionsortLista
             comparacoes+=selectionsortIterativoListaCom(l); // ordena o vetor usando o selectionsortLista
 		
-			// obtendo o tempo final
-			auto fim2 = chrono::high_resolution_clock::now();
+			
 		
 			// obtendo a duração total da ordenação
 			auto duracao_selectionsortLista = chrono::duration_cast<chrono::microseconds>(fim2 - ini2).count();

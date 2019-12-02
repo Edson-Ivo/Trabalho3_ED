@@ -1,0 +1,450 @@
+[BubbleSortIterativoVetor] N = 1000, tempo medio de execucao = 9993.2 microssegundos
+[BubbleSortIterativoVetor] N = 1000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 1000, Numero de comparacoes = 2497500 comparacoes
+[BubbleSortIterativoVetor] N = 5000, tempo medio de execucao = 223662 microssegundos
+[BubbleSortIterativoVetor] N = 5000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 5000, Numero de comparacoes = 62487500 comparacoes
+[BubbleSortIterativoVetor] N = 10000, tempo medio de execucao = 927428 microssegundos
+[BubbleSortIterativoVetor] N = 10000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 10000, Numero de comparacoes = 249975000 comparacoes
+[BubbleSortIterativoVetor] N = 15000, tempo medio de execucao = 2.01056e+006 microssegundos
+[BubbleSortIterativoVetor] N = 15000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 15000, Numero de comparacoes = 562462500 comparacoes
+[BubbleSortIterativoVetor] N = 30000, tempo medio de execucao = 8.14218e+006 microssegundos
+[BubbleSortIterativoVetor] N = 30000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 30000, Numero de comparacoes = -2045042296 comparacoes
+[SelectionSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 5795.6 microssegundos
+[SelectionSortIterativoVetor] N = 1000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 1000, Numero de comparacoes = 4995 Comparacoes
+[SelectionSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 120925 microssegundos
+[SelectionSortIterativoVetor] N = 5000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 5000, Numero de comparacoes = 24995 Comparacoes
+[SelectionSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 525076 microssegundos
+[SelectionSortIterativoVetor] N = 10000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 10000, Numero de comparacoes = 49995 Comparacoes
+[SelectionSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 1.07334e+006 microssegundos
+[SelectionSortIterativoVetor] N = 15000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 15000, Numero de comparacoes = 74995 Comparacoes
+[SelectionSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 4.29376e+006 microssegundos
+[SelectionSortIterativoVetor] N = 30000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 30000, Numero de comparacoes = 149995 Comparacoes
+[InsertSortIterativoVetor] N = 1000, tempo medio de execucao = 998.8 microssegundos
+[InsertSortIterativoVetor] N = 1000, Numero de trocas = 5000 Trocas
+[InsertSortIterativoVetor] N = 1000, Numero de Comparacoes = 4995 Comparacoes
+[InsertSortIterativoVetor] N = 5000, tempo medio de execucao = 23984.4 microssegundos
+[InsertSortIterativoVetor] N = 5000, Numero de trocas = 25000 Trocas
+[InsertSortIterativoVetor] N = 5000, Numero de Comparacoes = 24995 Comparacoes
+[InsertSortIterativoVetor] N = 10000, tempo medio de execucao = 93541.4 microssegundos
+[InsertSortIterativoVetor] N = 10000, Numero de trocas = 50000 Trocas
+[InsertSortIterativoVetor] N = 10000, Numero de Comparacoes = 49995 Comparacoes
+[InsertSortIterativoVetor] N = 15000, tempo medio de execucao = 248846 microssegundos
+[InsertSortIterativoVetor] N = 15000, Numero de trocas = 75000 Trocas
+[InsertSortIterativoVetor] N = 15000, Numero de Comparacoes = 74995 Comparacoes
+[InsertSortIterativoVetor] N = 30000, tempo medio de execucao = 809301 microssegundos
+[InsertSortIterativoVetor] N = 30000, Numero de trocas = 150000 Trocas
+[InsertSortIterativoVetor] N = 30000, Numero de Comparacoes = 149995 Comparacoes
+[BubbleSortRecursivoVetor] N = 1000, tempo medio de execucao = 9393.4 microssegundos
+[BubbleSortRecursivoVetor] N = 1000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 1000, Numero de Comparacoes = 7492500 comparacoes
+[BubbleSortRecursivoVetor] N = 5000, tempo medio de execucao = 218272 microssegundos
+[BubbleSortRecursivoVetor] N = 5000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 5000, Numero de Comparacoes = 199950000 comparacoes
+[BubbleSortRecursivoVetor] N = 10000, tempo medio de execucao = 894649 microssegundos
+[BubbleSortRecursivoVetor] N = 10000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 10000, Numero de Comparacoes = 1074850000 comparacoes
+[BubbleSortRecursivoVetor] N = 15000, tempo medio de execucao = 1.9392e+006 microssegundos
+[BubbleSortRecursivoVetor] N = 15000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 15000, Numero de Comparacoes = -1032779796 comparacoes
+[BubbleSortRecursivoVetor] N = 30000, tempo medio de execucao = 7.81579e+006 microssegundos
+[BubbleSortRecursivoVetor] N = 30000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 30000, Numero de Comparacoes = -1748014388 comparacoes
+[SelectSortRecursivoVetor] N = 1000, tempo medio de execucao = 5996.2 microssegundos
+[SelectSortRecursivoVetor] N = 1000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 1000, Numero de comparacoes = 14985 comparacoes
+[SelectSortRecursivoVetor] N = 5000, tempo medio de execucao = 126322 microssegundos
+[SelectSortRecursivoVetor] N = 5000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 5000, Numero de comparacoes = 99960 comparacoes
+[SelectSortRecursivoVetor] N = 10000, tempo medio de execucao = 524876 microssegundos
+[SelectSortRecursivoVetor] N = 10000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 10000, Numero de comparacoes = 299935 comparacoes
+[SelectSortRecursivoVetor] N = 15000, tempo medio de execucao = 1.11151e+006 microssegundos
+[SelectSortRecursivoVetor] N = 15000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 15000, Numero de comparacoes = 624910 comparacoes
+[SelectSortRecursivoVetor] N = 30000, tempo medio de execucao = 4.43107e+006 microssegundos
+[SelectSortRecursivoVetor] N = 30000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 30000, Numero de comparacoes = 1224885 comparacoes
+[InsertSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 1199 microssegundos
+[InsertSortRecursivoVetor] N = 1000, Numero de trocas = 163835 trocas
+[InsertSortRecursivoVetor] N = 1000, Numero de comparacoes = 14985 comparacoes
+[InsertSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 25583.2 microssegundos
+[InsertSortRecursivoVetor] N = 5000, Numero de trocas = 163835 trocas
+[InsertSortRecursivoVetor] N = 5000, Numero de comparacoes = 99960 comparacoes
+[InsertSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 94741.4 microssegundos
+[InsertSortRecursivoVetor] N = 10000, Numero de trocas = 163835 trocas
+[InsertSortRecursivoVetor] N = 10000, Numero de comparacoes = 299935 comparacoes
+[InsertSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 252844 microssegundos
+[InsertSortRecursivoVetor] N = 15000, Numero de trocas = 163835 trocas
+[InsertSortRecursivoVetor] N = 15000, Numero de comparacoes = 624910 comparacoes
+[InsertSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 835286 microssegundos
+[InsertSortRecursivoVetor] N = 30000, Numero de trocas = 163835 trocas
+[InsertSortRecursivoVetor] N = 30000, Numero de comparacoes = 1224885 comparacoes
+[QuickSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 14190.8 microssegundos
+[QuickSortRecursivoVetor] N = 1000, Numero de trocas = 7507500 trocas
+[QuickSortRecursivoVetor] N = 1000, Numero de comparacoes = 7507500 comparacoes
+[QuickSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 357779 microssegundos
+[QuickSortRecursivoVetor] N = 5000, Numero de trocas = 200050000 trocas
+[QuickSortRecursivoVetor] N = 5000, Numero de comparacoes = 200050000 comparacoes
+[QuickSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 1.24223e+006 microssegundos
+[QuickSortRecursivoVetor] N = 10000, Numero de trocas = 1075150000 trocas
+[QuickSortRecursivoVetor] N = 10000, Numero de comparacoes = 1075150000 comparacoes
+[QuickSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 2.80108e+006 microssegundos
+[QuickSortRecursivoVetor] N = 15000, Numero de trocas = -1032154796 trocas
+[QuickSortRecursivoVetor] N = 15000, Numero de comparacoes = -1032154796 comparacoes
+[QuickSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 1.11661e+007 microssegundos
+[QuickSortRecursivoVetor] N = 30000, Numero de trocas = -1746789388 trocas
+[QuickSortRecursivoVetor] N = 30000, Numero de comparacoes = -1746789388 comparacoes
+[MergeSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 999.4 microssegundos
+[MergeSortRecursivoVetor] N = 1000, Numero de trocas = 75735 trocas
+[MergeSortRecursivoVetor] N = 1000, Numero de comparacoes = 75735 comparacoes
+[MergeSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 4196.4 microssegundos
+[MergeSortRecursivoVetor] N = 5000, Numero de trocas = 606420 trocas
+[MergeSortRecursivoVetor] N = 5000, Numero de comparacoes = 606420 comparacoes
+[MergeSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 8794.4 microssegundos
+[MergeSortRecursivoVetor] N = 10000, Numero de trocas = 1961820 trocas
+[MergeSortRecursivoVetor] N = 10000, Numero de comparacoes = 1961820 comparacoes
+[MergeSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 12590.8 microssegundos
+[MergeSortRecursivoVetor] N = 15000, Numero de trocas = 4247580 trocas
+[MergeSortRecursivoVetor] N = 15000, Numero de comparacoes = 4247580 comparacoes
+[MergeSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 22986 microssegundos
+[MergeSortRecursivoVetor] N = 30000, Numero de trocas = 8727355 trocas
+[MergeSortRecursivoVetor] N = 30000, Numero de comparacoes = 8727355 comparacoes
+[HeapSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 599 microssegundos
+[HeapSortRecursivoVetor] N = 1000, Numero de trocas = 324750 trocas
+[HeapSortRecursivoVetor] N = 1000, Numero de comparacoes = 152820 comparacoes
+[HeapSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 5196.2 microssegundos
+[HeapSortRecursivoVetor] N = 5000, Numero de trocas = 2610965 trocas
+[HeapSortRecursivoVetor] N = 5000, Numero de comparacoes = 1203015 comparacoes
+[HeapSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 10592.6 microssegundos
+[HeapSortRecursivoVetor] N = 10000, Numero de trocas = 8500075 trocas
+[HeapSortRecursivoVetor] N = 10000, Numero de comparacoes = 3880970 comparacoes
+[HeapSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 15189.8 microssegundos
+[HeapSortRecursivoVetor] N = 15000, Numero de trocas = 18589335 trocas
+[HeapSortRecursivoVetor] N = 15000, Numero de comparacoes = 8434205 comparacoes
+[HeapSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 32379.2 microssegundos
+[HeapSortRecursivoVetor] N = 30000, Numero de trocas = 38608090 trocas
+[HeapSortRecursivoVetor] N = 30000, Numero de comparacoes = 17396230 comparacoes
+[QuickSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 14590.4 microssegundos
+[QuickSortIterativoVetor] N = 1000, Numero de trocas = 7507500 trocas
+[QuickSortIterativoVetor] N = 1000, Numero de comparacoes = 7507500 comparacoes
+[QuickSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 362576 microssegundos
+[QuickSortIterativoVetor] N = 5000, Numero de trocas = 200050000 trocas
+[QuickSortIterativoVetor] N = 5000, Numero de comparacoes = 200050000 comparacoes
+[QuickSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 1.24223e+006 microssegundos
+[QuickSortIterativoVetor] N = 10000, Numero de trocas = 1075150000 trocas
+[QuickSortIterativoVetor] N = 10000, Numero de comparacoes = 1075150000 comparacoes
+[QuickSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 2.87063e+006 microssegundos
+[QuickSortIterativoVetor] N = 15000, Numero de trocas = -1032154796 trocas
+[QuickSortIterativoVetor] N = 15000, Numero de comparacoes = -1032154796 comparacoes
+[QuickSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 1.11957e+007 microssegundos
+[QuickSortIterativoVetor] N = 30000, Numero de trocas = -1746789388 trocas
+[QuickSortIterativoVetor] N = 30000, Numero de comparacoes = -1746789388 comparacoes
+[MergeSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 399.8 microssegundos
+[MergeSortIterativoVetor] N = 1000, Numero de trocas = 75780 trocas
+[MergeSortIterativoVetor] N = 1000, Numero de comparacoes = 75780 comparacoes
+[MergeSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 2198.2 microssegundos
+[MergeSortIterativoVetor] N = 5000, Numero de trocas = 626640 trocas
+[MergeSortIterativoVetor] N = 5000, Numero de comparacoes = 626640 comparacoes
+[MergeSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 5396 microssegundos
+[MergeSortIterativoVetor] N = 10000, Numero de trocas = 2035880 trocas
+[MergeSortIterativoVetor] N = 10000, Numero de comparacoes = 2035880 comparacoes
+[MergeSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 7194.8 microssegundos
+[MergeSortIterativoVetor] N = 15000, Numero de trocas = 4356140 trocas
+[MergeSortIterativoVetor] N = 15000, Numero de comparacoes = 4356140 comparacoes
+[MergeSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 14190.4 microssegundos
+[MergeSortIterativoVetor] N = 30000, Numero de trocas = 8856180 trocas
+[MergeSortIterativoVetor] N = 30000, Numero de comparacoes = 8856180 comparacoes
+[HeapSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 199.8 microssegundos
+[HeapSortIterativoVetor] N = 1000, Numero de trocas = 48435 trocas
+[HeapSortIterativoVetor] N = 1000, Numero de comparacoes = 50935 comparacoes
+[HeapSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 2198.2 microssegundos
+[HeapSortIterativoVetor] N = 5000, Numero de trocas = 303600 trocas
+[HeapSortIterativoVetor] N = 5000, Numero de comparacoes = 316100 comparacoes
+[HeapSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 5396.8 microssegundos
+[HeapSortIterativoVetor] N = 10000, Numero de trocas = 656910 trocas
+[HeapSortIterativoVetor] N = 10000, Numero de comparacoes = 681910 comparacoes
+[HeapSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 7993.6 microssegundos
+[HeapSortIterativoVetor] N = 15000, Numero de trocas = 1025630 trocas
+[HeapSortIterativoVetor] N = 15000, Numero de comparacoes = 1063130 comparacoes
+[HeapSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 16588 microssegundos
+[HeapSortIterativoVetor] N = 30000, Numero de trocas = 2203580 trocas
+[HeapSortIterativoVetor] N = 30000, Numero de comparacoes = 2278580 comparacoes
+[BubbleIterativoLista] N = 1000, tempo m├®dio de execu├º├úo = 12191.6 microssegundos
+[BubbleIterativoLista] N = 1000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 1000, Numero de comparacoes = 2497500 comparacoes
+[BubbleIterativoLista] N = 5000, tempo m├®dio de execu├º├úo = 383163 microssegundos
+[BubbleIterativoLista] N = 5000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 5000, Numero de comparacoes = 62487500 comparacoes
+[BubbleIterativoLista] N = 10000, tempo m├®dio de execu├º├úo = 1.47329e+006 microssegundos
+[BubbleIterativoLista] N = 10000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 10000, Numero de comparacoes = 249975000 comparacoes
+[BubbleIterativoLista] N = 15000, tempo m├®dio de execu├º├úo = 3.43029e+006 microssegundos
+[BubbleIterativoLista] N = 15000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 15000, Numero de comparacoes = 562462500 comparacoes
+[BubbleIterativoLista] N = 30000, tempo m├®dio de execu├º├úo = 1.39304e+007 microssegundos
+[BubbleIterativoLista] N = 30000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 30000, Numero de comparacoes = -2045042296 comparacoes
+[InsertionsortIterativoLista] N = 1000, tempo m├®dio de execu├º├úo = 4996.6 microssegundos
+[InsertionsortIterativoLista] N = 1000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 1000, Numero de comparacoes = 4995 comparacoes
+[InsertionsortIterativoLista] N = 5000, tempo m├®dio de execu├º├úo = 115528 microssegundos
+[InsertionsortIterativoLista] N = 5000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 5000, Numero de comparacoes = 24995 comparacoes
+[InsertionsortIterativoLista] N = 10000, tempo m├®dio de execu├º├úo = 530073 microssegundos
+[InsertionsortIterativoLista] N = 10000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 10000, Numero de comparacoes = 49995 comparacoes
+[InsertionsortIterativoLista] N = 15000, tempo m├®dio de execu├º├úo = 1.12551e+006 microssegundos
+[InsertionsortIterativoLista] N = 15000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 15000, Numero de comparacoes = 74995 comparacoes
+[InsertionsortIterativoLista] N = 30000, tempo m├®dio de execu├º├úo = 4.56079e+006 microssegundos
+[InsertionsortIterativoLista] N = 30000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 30000, Numero de comparacoes = 149995 comparacoes
+[SelectionsortLista] N = 1000, tempo m├®dio de execu├º├úo = 9393.6 microssegundos
+[SelectionsortLista] N = 1000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 1000, Numero de comparacoes = 2497500 comparacoes
+[SelectionsortLista] N = 5000, tempo m├®dio de execu├º├úo = 323200 microssegundos
+[SelectionsortLista] N = 5000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 5000, Numero de comparacoes = 62487500 comparacoes
+[SelectionsortLista] N = 10000, tempo m├®dio de execu├º├úo = 1.2918e+006 microssegundos
+[SelectionsortLista] N = 10000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 10000, Numero de comparacoes = 249975000 comparacoes
+[SelectionsortLista] N = 15000, tempo m├®dio de execu├º├úo = 3.15646e+006 microssegundos
+[SelectionsortLista] N = 30000, Numero de comparacoes = -2045042296 comparacoes
+PS D:\Git_My_DUDE\Trabalho3_ED>
+
+                                g++ -std=c++14 main.cpp ordenacaoVetor.cpp ordenacaoLista.cpp QX_list.cpp -o programa
+PS D:\Git_My_DUDE\Trabalho3_ED> ./programa
+[BubbleSortIterativoVetor] N = 1000, tempo medio de execucao = 5197.2 microssegundos
+[BubbleSortIterativoVetor] N = 1000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 1000, Numero de comparacoes = 2497500 comparacoes
+[BubbleSortIterativoVetor] N = 5000, tempo medio de execucao = 162299 microssegundos
+[BubbleSortIterativoVetor] N = 5000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 5000, Numero de comparacoes = 62487500 comparacoes
+[BubbleSortIterativoVetor] N = 10000, tempo medio de execucao = 603228 microssegundos
+[BubbleSortIterativoVetor] N = 10000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 10000, Numero de comparacoes = 249975000 comparacoes
+[BubbleSortIterativoVetor] N = 15000, tempo medio de execucao = 1.42872e+006 microssegundos
+[BubbleSortIterativoVetor] N = 15000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 15000, Numero de comparacoes = 562462500 comparacoes
+[BubbleSortIterativoVetor] N = 30000, tempo medio de execucao = 6.96384e+006 microssegundos
+[BubbleSortIterativoVetor] N = 30000, Numero de trocas = 0 trocas
+[BubbleSortIterativoVetor] N = 30000, Numero de comparacoes = -2045042296 comparacoes
+[SelectionSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 1998 microssegundos
+[SelectionSortIterativoVetor] N = 1000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 1000, Numero de comparacoes = 4995 Comparacoes
+[SelectionSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 57563 microssegundos
+[SelectionSortIterativoVetor] N = 5000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 5000, Numero de comparacoes = 24995 Comparacoes
+[SelectionSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 209393 microssegundos
+[SelectionSortIterativoVetor] N = 10000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 10000, Numero de comparacoes = 49995 Comparacoes
+[SelectionSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 469688 microssegundos
+[SelectionSortIterativoVetor] N = 15000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 15000, Numero de comparacoes = 74995 Comparacoes
+[SelectionSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 1.97726e+006 microssegundos
+[SelectionSortIterativoVetor] N = 30000, Numero de trocas = 0 Trocas
+[SelectionSortIterativoVetor] N = 30000, Numero de comparacoes = 149995 Comparacoes
+[InsertSortIterativoVetor] N = 1000, tempo medio de execucao = 1798.2 microssegundos
+[InsertSortIterativoVetor] N = 1000, Numero de trocas = 5000 Trocas
+[InsertSortIterativoVetor] N = 1000, Numero de Comparacoes = 4995 Comparacoes
+[InsertSortIterativoVetor] N = 5000, tempo medio de execucao = 34579 microssegundos
+[InsertSortIterativoVetor] N = 5000, Numero de trocas = 25000 Trocas
+[InsertSortIterativoVetor] N = 5000, Numero de Comparacoes = 24995 Comparacoes
+[InsertSortIterativoVetor] N = 10000, tempo medio de execucao = 115033 microssegundos
+[InsertSortIterativoVetor] N = 10000, Numero de trocas = 50000 Trocas
+[InsertSortIterativoVetor] N = 10000, Numero de Comparacoes = 49995 Comparacoes
+[InsertSortIterativoVetor] N = 15000, tempo medio de execucao = 258748 microssegundos
+[InsertSortIterativoVetor] N = 15000, Numero de trocas = 75000 Trocas
+[InsertSortIterativoVetor] N = 15000, Numero de Comparacoes = 74995 Comparacoes
+[InsertSortIterativoVetor] N = 30000, tempo medio de execucao = 1.04178e+006 microssegundos
+[InsertSortIterativoVetor] N = 30000, Numero de trocas = 150000 Trocas
+[InsertSortIterativoVetor] N = 30000, Numero de Comparacoes = 149995 Comparacoes
+[BubbleSortRecursivoVetor] N = 1000, tempo medio de execucao = 14183.2 microssegundos
+[BubbleSortRecursivoVetor] N = 1000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 1000, Numero de Comparacoes = 7492500 comparacoes
+[BubbleSortRecursivoVetor] N = 5000, tempo medio de execucao = 151622 microssegundos
+[BubbleSortRecursivoVetor] N = 5000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 5000, Numero de Comparacoes = 199950000 comparacoes
+[BubbleSortRecursivoVetor] N = 10000, tempo medio de execucao = 749255 microssegundos
+[BubbleSortRecursivoVetor] N = 10000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 10000, Numero de Comparacoes = 1074850000 comparacoes
+[BubbleSortRecursivoVetor] N = 15000, tempo medio de execucao = 1.58533e+006 microssegundos
+[BubbleSortRecursivoVetor] N = 15000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 15000, Numero de Comparacoes = -1032779796 comparacoes
+[BubbleSortRecursivoVetor] N = 30000, tempo medio de execucao = 6.82403e+006 microssegundos
+[BubbleSortRecursivoVetor] N = 30000, Numero de Trocas = 0 trocas
+[BubbleSortRecursivoVetor] N = 30000, Numero de Comparacoes = -1748014388 comparacoes
+[SelectSortRecursivoVetor] N = 1000, tempo medio de execucao = 2598.8 microssegundos
+[SelectSortRecursivoVetor] N = 1000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 1000, Numero de comparacoes = 14985 comparacoes
+[SelectSortRecursivoVetor] N = 5000, tempo medio de execucao = 58107.2 microssegundos
+[SelectSortRecursivoVetor] N = 5000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 5000, Numero de comparacoes = 99960 comparacoes
+[SelectSortRecursivoVetor] N = 10000, tempo medio de execucao = 288624 microssegundos
+[SelectSortRecursivoVetor] N = 10000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 10000, Numero de comparacoes = 299935 comparacoes
+[SelectSortRecursivoVetor] N = 15000, tempo medio de execucao = 579753 microssegundos
+[SelectSortRecursivoVetor] N = 15000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 15000, Numero de comparacoes = 624910 comparacoes
+[SelectSortRecursivoVetor] N = 30000, tempo medio de execucao = 2.42605e+006 microssegundos
+[SelectSortRecursivoVetor] N = 30000, Numero de trocas = 0 trocas
+[SelectSortRecursivoVetor] N = 30000, Numero de comparacoes = 1224885 comparacoes
+[InsertSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 998.8 microssegundos
+[InsertSortRecursivoVetor] N = 1000, Numero de trocas = 163655 trocas
+[InsertSortRecursivoVetor] N = 1000, Numero de comparacoes = 14985 comparacoes
+[InsertSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 38379 microssegundos
+[InsertSortRecursivoVetor] N = 5000, Numero de trocas = 163820 trocas
+[InsertSortRecursivoVetor] N = 5000, Numero de comparacoes = 99960 comparacoes
+[InsertSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 136317 microssegundos
+[InsertSortRecursivoVetor] N = 10000, Numero de trocas = 163825 trocas
+[InsertSortRecursivoVetor] N = 10000, Numero de comparacoes = 299935 comparacoes
+[InsertSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 266144 microssegundos
+[InsertSortRecursivoVetor] N = 15000, Numero de trocas = 163825 trocas
+[InsertSortRecursivoVetor] N = 15000, Numero de comparacoes = 624910 comparacoes
+[InsertSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 1.40132e+006 microssegundos
+[InsertSortRecursivoVetor] N = 30000, Numero de trocas = 163835 trocas
+[InsertSortRecursivoVetor] N = 30000, Numero de comparacoes = 1224885 comparacoes
+[QuickSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 0 microssegundos
+[QuickSortRecursivoVetor] N = 1000, Numero de trocas = 7507500 trocas
+[QuickSortRecursivoVetor] N = 1000, Numero de comparacoes = 7507500 comparacoes
+[QuickSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 999 microssegundos
+[QuickSortRecursivoVetor] N = 5000, Numero de trocas = 200050000 trocas
+[QuickSortRecursivoVetor] N = 5000, Numero de comparacoes = 200050000 comparacoes
+[QuickSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 2197 microssegundos
+[QuickSortRecursivoVetor] N = 10000, Numero de trocas = 1075150000 trocas
+[QuickSortRecursivoVetor] N = 10000, Numero de comparacoes = 1075150000 comparacoes
+[QuickSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 3796.8 microssegundos
+[QuickSortRecursivoVetor] N = 15000, Numero de trocas = -1032154796 trocas
+[QuickSortRecursivoVetor] N = 15000, Numero de comparacoes = -1032154796 comparacoes
+[QuickSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 7593 microssegundos
+[QuickSortRecursivoVetor] N = 30000, Numero de trocas = -1746789388 trocas
+[QuickSortRecursivoVetor] N = 30000, Numero de comparacoes = -1746789388 comparacoes
+[MergeSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 399.4 microssegundos
+[MergeSortRecursivoVetor] N = 1000, Numero de trocas = 75735 trocas
+[MergeSortRecursivoVetor] N = 1000, Numero de comparacoes = 75735 comparacoes
+[MergeSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 1798.8 microssegundos
+[MergeSortRecursivoVetor] N = 5000, Numero de trocas = 606420 trocas
+[MergeSortRecursivoVetor] N = 5000, Numero de comparacoes = 606420 comparacoes
+[MergeSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 10592.2 microssegundos
+[MergeSortRecursivoVetor] N = 10000, Numero de trocas = 1961820 trocas
+[MergeSortRecursivoVetor] N = 10000, Numero de comparacoes = 1961820 comparacoes
+[MergeSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 5196.4 microssegundos
+[MergeSortRecursivoVetor] N = 15000, Numero de trocas = 4247580 trocas
+[MergeSortRecursivoVetor] N = 15000, Numero de comparacoes = 4247580 comparacoes
+[MergeSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 14590 microssegundos
+[MergeSortRecursivoVetor] N = 30000, Numero de trocas = 8727355 trocas
+[MergeSortRecursivoVetor] N = 30000, Numero de comparacoes = 8727355 comparacoes
+[HeapSortRecursivoVetor] N = 1000, tempo m├®dio de execu├º├úo = 199.8 microssegundos
+[HeapSortRecursivoVetor] N = 1000, Numero de trocas = 324825 trocas
+[HeapSortRecursivoVetor] N = 1000, Numero de comparacoes = 152985 comparacoes
+[HeapSortRecursivoVetor] N = 5000, tempo m├®dio de execu├º├úo = 1598.4 microssegundos
+[HeapSortRecursivoVetor] N = 5000, Numero de trocas = 2610760 trocas
+[HeapSortRecursivoVetor] N = 5000, Numero de comparacoes = 1203185 comparacoes
+[HeapSortRecursivoVetor] N = 10000, tempo m├®dio de execu├º├úo = 3596.4 microssegundos
+[HeapSortRecursivoVetor] N = 10000, Numero de trocas = 8501150 trocas
+[HeapSortRecursivoVetor] N = 10000, Numero de comparacoes = 3881340 comparacoes
+[HeapSortRecursivoVetor] N = 15000, tempo m├®dio de execu├º├úo = 6195.4 microssegundos
+[HeapSortRecursivoVetor] N = 15000, Numero de trocas = 18591320 trocas
+[HeapSortRecursivoVetor] N = 15000, Numero de comparacoes = 8434770 comparacoes
+[HeapSortRecursivoVetor] N = 30000, tempo m├®dio de execu├º├úo = 11992 microssegundos
+[HeapSortRecursivoVetor] N = 30000, Numero de trocas = 38606490 trocas
+[HeapSortRecursivoVetor] N = 30000, Numero de comparacoes = 17395065 comparacoes
+[QuickSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 0 microssegundos
+[QuickSortIterativoVetor] N = 1000, Numero de trocas = 7507500 trocas
+[QuickSortIterativoVetor] N = 1000, Numero de comparacoes = 7507500 comparacoes
+[QuickSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 999 microssegundos
+[QuickSortIterativoVetor] N = 5000, Numero de trocas = 200050000 trocas
+[QuickSortIterativoVetor] N = 5000, Numero de comparacoes = 200050000 comparacoes
+[QuickSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 2997.2 microssegundos
+[QuickSortIterativoVetor] N = 10000, Numero de trocas = 1075150000 trocas
+[QuickSortIterativoVetor] N = 10000, Numero de comparacoes = 1075150000 comparacoes
+[QuickSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 3597 microssegundos
+[QuickSortIterativoVetor] N = 15000, Numero de trocas = -1032154796 trocas
+[QuickSortIterativoVetor] N = 15000, Numero de comparacoes = -1032154796 comparacoes
+[QuickSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 8995 microssegundos
+[QuickSortIterativoVetor] N = 30000, Numero de trocas = -1746789388 trocas
+[QuickSortIterativoVetor] N = 30000, Numero de comparacoes = -1746789388 comparacoes
+[MergeSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 0 microssegundos
+[MergeSortIterativoVetor] N = 1000, Numero de trocas = 75780 trocas
+[MergeSortIterativoVetor] N = 1000, Numero de comparacoes = 75780 comparacoes
+[MergeSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 1198.4 microssegundos
+[MergeSortIterativoVetor] N = 5000, Numero de trocas = 626640 trocas
+[MergeSortIterativoVetor] N = 5000, Numero de comparacoes = 626640 comparacoes
+[MergeSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 2197.6 microssegundos
+[MergeSortIterativoVetor] N = 10000, Numero de trocas = 2035880 trocas
+[MergeSortIterativoVetor] N = 10000, Numero de comparacoes = 2035880 comparacoes
+[MergeSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 8993.4 microssegundos
+[MergeSortIterativoVetor] N = 15000, Numero de trocas = 4356140 trocas
+[MergeSortIterativoVetor] N = 15000, Numero de comparacoes = 4356140 comparacoes
+[MergeSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 7594 microssegundos
+[MergeSortIterativoVetor] N = 30000, Numero de trocas = 8856180 trocas
+[MergeSortIterativoVetor] N = 30000, Numero de comparacoes = 8856180 comparacoes
+[HeapSortIterativoVetor] N = 1000, tempo m├®dio de execu├º├úo = 199.8 microssegundos
+[HeapSortIterativoVetor] N = 1000, Numero de trocas = 48490 trocas
+[HeapSortIterativoVetor] N = 1000, Numero de comparacoes = 50990 comparacoes
+[HeapSortIterativoVetor] N = 5000, tempo m├®dio de execu├º├úo = 1398.8 microssegundos
+[HeapSortIterativoVetor] N = 5000, Numero de trocas = 303565 trocas
+[HeapSortIterativoVetor] N = 5000, Numero de comparacoes = 316065 comparacoes
+[HeapSortIterativoVetor] N = 10000, tempo m├®dio de execu├º├úo = 2798.4 microssegundos
+[HeapSortIterativoVetor] N = 10000, Numero de trocas = 657000 trocas
+[HeapSortIterativoVetor] N = 10000, Numero de comparacoes = 682000 comparacoes
+[HeapSortIterativoVetor] N = 15000, tempo m├®dio de execu├º├úo = 3796.8 microssegundos
+[HeapSortIterativoVetor] N = 15000, Numero de trocas = 1025635 trocas
+[HeapSortIterativoVetor] N = 15000, Numero de comparacoes = 1063135 comparacoes
+[HeapSortIterativoVetor] N = 30000, tempo m├®dio de execu├º├úo = 7395.4 microssegundos
+[HeapSortIterativoVetor] N = 30000, Numero de trocas = 2203000 trocas
+[HeapSortIterativoVetor] N = 30000, Numero de comparacoes = 2278000 comparacoes
+[BubbleIterativoLista] N = 1000, tempo m├®dio de execu├º├úo = 6794.4 microssegundos
+[BubbleIterativoLista] N = 1000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 1000, Numero de comparacoes = 2497500 comparacoes
+[BubbleIterativoLista] N = 5000, tempo m├®dio de execu├º├úo = 219663 microssegundos
+[BubbleIterativoLista] N = 5000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 5000, Numero de comparacoes = 62487500 comparacoes
+[BubbleIterativoLista] N = 10000, tempo m├®dio de execu├º├úo = 853795 microssegundos
+[BubbleIterativoLista] N = 10000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 10000, Numero de comparacoes = 249975000 comparacoes
+[BubbleIterativoLista] N = 15000, tempo m├®dio de execu├º├úo = 1.63385e+006 microssegundos
+[BubbleIterativoLista] N = 15000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 15000, Numero de comparacoes = 562462500 comparacoes
+[BubbleIterativoLista] N = 30000, tempo m├®dio de execu├º├úo = 6.79651e+006 microssegundos
+[BubbleIterativoLista] N = 30000, Numero de trocas = 0 trocas
+[BubbleIterativoLista] N = 30000, Numero de comparacoes = -2045042296 comparacoes
+[InsertionsortIterativoLista] N = 1000, tempo m├®dio de execu├º├úo = 1599 microssegundos
+[InsertionsortIterativoLista] N = 1000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 1000, Numero de comparacoes = 4995 comparacoes
+[InsertionsortIterativoLista] N = 5000, tempo m├®dio de execu├º├úo = 71473.8 microssegundos
+[InsertionsortIterativoLista] N = 5000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 5000, Numero de comparacoes = 24995 comparacoes
+[InsertionsortIterativoLista] N = 10000, tempo m├®dio de execu├º├úo = 295944 microssegundos
+[InsertionsortIterativoLista] N = 10000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 10000, Numero de comparacoes = 49995 comparacoes
+[InsertionsortIterativoLista] N = 15000, tempo m├®dio de execu├º├úo = 692599 microssegundos
+[InsertionsortIterativoLista] N = 15000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 15000, Numero de comparacoes = 74995 comparacoes
+[InsertionsortIterativoLista] N = 30000, tempo m├®dio de execu├º├úo = 1.93295e+006 microssegundos
+[InsertionsortIterativoLista] N = 30000, Numero de trocas = 0 trocas
+[InsertionsortIterativoLista] N = 30000, Numero de comparacoes = 149995 comparacoes
+[SelectionsortLista] N = 1000, tempo m├®dio de execu├º├úo = 2597.6 microssegundos
+[SelectionsortLista] N = 1000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 1000, Numero de comparacoes = 2497500 comparacoes
+[SelectionsortLista] N = 5000, tempo m├®dio de execu├º├úo = 84981.4 microssegundos
+[SelectionsortLista] N = 5000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 5000, Numero de comparacoes = 62487500 comparacoes
+[SelectionsortLista] N = 10000, tempo m├®dio de execu├º├úo = 385480 microssegundos
+[SelectionsortLista] N = 10000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 10000, Numero de comparacoes = 249975000 comparacoes
+[SelectionsortLista] N = 15000, tempo m├®dio de execu├º├úo = 974766 microssegundos
+[SelectionsortLista] N = 15000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 15000, Numero de comparacoes = 562462500 comparacoes
+[SelectionsortLista] N = 30000, tempo m├®dio de execu├º├úo = 3.61841e+006 microssegundos
+[SelectionsortLista] N = 30000, Numero de trocas = 0 trocas
+[SelectionsortLista] N = 30000, Numero de comparacoes = -2045042296 comparacoes
