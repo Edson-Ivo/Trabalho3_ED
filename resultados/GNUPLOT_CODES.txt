@@ -1,459 +1,79 @@
-gnuplot> set term png                                      
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "BubbleIterativoVetor.png"                                   
-gnuplot> set grid                                        
-gnuplot> set title 'Bubble Sort Iterativo Vetor'           
-gnuplot> set xlabel 'Tamanho do Vetor'                   
-gnuplot> set ylabel 'Microsegundos'                      
-gnuplot> plot 'BubbleIterativoVetor.txt' with linespoints  
-         warning: Cannot find or open file "BubbleIterativoVetor.txt"
-         No data in plot
-
-gnuplot> plot 'BubbleIterativoVetor.txt' with linespoints  
-         warning: Cannot find or open file "BubbleIterativoVetor.txt"
-         No data in plot
-
-gnuplot> cd 'D:\Git_My_DUDE\Trabalho3_ED\resultados'
-gnuplot> set term png                                    
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "BubbleIterativoVetor.png"           
-gnuplot> set grid                                        
-gnuplot> set title 'Bubble Sort Iterativo Vetor'         
-gnuplot> set xlabel 'Tamanho do Vetor'                   
-gnuplot> set ylabel 'Microsegundos'                      
-gnuplot> plot 'BubbleIterativoVetor.txt' with linespoints
-gnuplot> set term png                                    
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "BubbleRecursivoVetor.png"           
-gnuplot> set grid                                        
-gnuplot> set title 'Bubble Sort Recursivo Vetor'         
-gnuplot> set xlabel 'Tamanho do Vetor'                   
-gnuplot> set ylabel 'Microsegundos'                      
-gnuplot> plot 'BubbleRecursivoVetor.txt' with linespoints  
-         warning: Cannot find or open file "BubbleRecursivoVetor.txt"
-         No data in plot
-
-gnuplot> plot 'BubbleSortRecursivoVetor.txt' with linespoints  
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "HeapIterativoVetor.png"                 
-gnuplot> set grid                                            
-gnuplot> set title 'Heap Sort Iterativo Vetor'               
-gnuplot> set xlabel 'Tamanho do Vetor'                       
-gnuplot> set ylabel 'Microsegundos'                          
-gnuplot> plot 'HeapSortIterativoVetor.txt' with linespoints   
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "HeapRecursivoVetor.png"                 
-gnuplot> set grid                                          
-gnuplot> set title 'Heap Sort Recursivo Vetor'             
-gnuplot> set xlabel 'Tamanho do Vetor'                     
-gnuplot> set ylabel 'Microsegundos'                        
-gnuplot> plot 'HeapSortRecursivoVetor.txt' with linespoints  
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "InsertionIterativoVetor.png"          
-gnuplot> set grid                                          
-gnuplot> set title 'Insert Sort Iterativo Vetor'           
-gnuplot> set xlabel 'Tamanho do Vetor'                     
-gnuplot> set ylabel 'Microsegundos'                        
-gnuplot> plot 'InsertSortIterativoVetor.txt' with linespoints  
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "InsertRecursivoVetor.png"               
-gnuplot> set grid                                            
-gnuplot> set title 'Insert Rercursivo Sort'                  
-gnuplot> set xlabel 'Tamanho do Vetor'                       
-gnuplot> set ylabel 'Microsegundos'                          
-gnuplot> plot 'InserSortRecursivoVetor.txt' with linespoints  
-         warning: Cannot find or open file "InserSortRecursivoVetor.txt"
-         No data in plot
-
-gnuplot> plot 'InsertSortRecursivoVetor.txt' with linespoints  
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "InsertIterativoLista.png"               
-gnuplot> set grid                                            
-gnuplot> set title 'Insert Iterativo Sort Lista'             
-gnuplot> set xlabel 'Tamanho do Vetor'                       
-gnuplot> set ylabel 'Microsegundos'                          
-gnuplot> plot 'insertSortIterativoLista.txt' with linespoints   
-         warning: Cannot find or open file "insertSortIterativoLista.txt"
-         No data in plot
-
-gnuplot> plot 'insertionSortIterativoLista.txt' with linespoints  
-gnuplot> set term png                                           
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "MergeIterativoLista.png"                   
-gnuplot> set grid                                               
-gnuplot> set title 'Insert Iterativo Sort Lista'                
-gnuplot> 
-gnuplot> 
-gnuplot> set title 'Merge Iterativo Sort'        
-gnuplot> set xlabel 'Tamanho do Vetor'                          
-gnuplot> set ylabel 'Microsegundos'                             
-gnuplot> plot 'MergeSortIterativoVetor.txt' with linespoints     
-gnuplot> set term png                                           
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "MergeSortRecursivo.png"                    
-gnuplot> set grid                                           
-gnuplot> set title 'Merge Recursivo Sort'                   
-gnuplot> set xlabel 'Tamanho do Vetor'                      
-gnuplot> set ylabel 'Microsegundos'                         
-gnuplot> plot 'MergeSortRecursivoVetor.txt' with linespoints  
-gnuplot> set term png                                       
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "QuickSortIterativo.png"                
-gnuplot> set grid                                           
-gnuplot> set title 'Quick Iterativo Sort'                   
-gnuplot> set xlabel 'Tamanho do Vetor'                      
-gnuplot> set ylabel 'Microsegundos'                         
-gnuplot> plot 'QuickSortIterativoVetor.txt' with linespoints  
-gnuplot> set term png                                       
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "QuickSortRecursivo.png"                
-gnuplot> set grid                                           
-gnuplot> set title 'Quick Recursivo Sort'                   
-gnuplot> set xlabel 'Tamanho do Vetor'                      
-gnuplot> set ylabel 'Microsegundos'                         
-gnuplot> plot 'QuickSortRecursivoVetor.txt' with linespoints  
-gnuplot> set term png                                       
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "SelectSortRecursivo.png"               
-gnuplot> set grid                                           
-gnuplot> set title 'Select Recursivo Sort'                  
-gnuplot> set xlabel 'Tamanho do Vetor'                      
-gnuplot> set ylabel 'Microsegundos'                         
-gnuplot> plot 'SelectSortRecursivoVetor.txt' with linespoints  
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "SelectSortIterativoVetor.png"           
-gnuplot> set grid                                            
-gnuplot> set title 'Select Iterativo Sort Vetor'             
-gnuplot> set xlabel 'Tamanho do Vetor'                       
-gnuplot> set ylabel 'Microsegundos'                          
-gnuplot> plot 'SelectSortIterativoVetor.txt' with linespoints  
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "SelectSortIterativoLista.png"           
-gnuplot> set grid                                            
-gnuplot> set title 'Select Iterativo Sort Lista'             
-gnuplot> set xlabel 'Tamanho do Vetor'                       
-gnuplot> set ylabel 'Microsegundos'                          
-gnuplot> plot 'SelectSortIterativoLista.txt' with linespoints  
-         warning: Cannot find or open file "SelectSortIterativoLista.txt"
-         No data in plot
-
-gnuplot> plot 'selectsortLista.txt' with linespoints          
-         warning: Cannot find or open file "selectsortLista.txt"
-         No data in plot
-
-gnuplot> plot 'selectionsortLista.txt' with linespoints  
-gnuplot> set term png                                        
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "ComparacaoALL.png"                      
-gnuplot> set grid                                            
-gnuplot> set title 'Comparacao ALL'                          
-gnuplot> set xlabel 'Tamanho do Vetor'                       
-gnuplot> set ylabel 'Microsegundos'                          
-gnuplot> set multiplot
-multiplot> plot 'BubbleIterativoLista.txt' with linespoints title 'BubbleIterativoLista''res, 'resultadoBubble.txt' with linespoints title 'Bubble'                  
-
-multiplot> plot 'BubbleIterativoLista.txt' with linespoints title 'BubbleIterativoLista''res, 'resultadoBubble.txt' with linespoints title 'Bubble''
-                                                                                               ^
-           unexpected or unrecognized token
-
-multiplot> plot 'BubbleIterativoLista.txt' with linespoints title 'BubbleIterativoLista', 'BubbleIterativoVetor.txt' with linespoints title 'BubbleIterativoVetor','BubbleSortRecursivoVetor.txt
-' with linespoints title 'BubbleSortRecursivoVetor','HeapSortIterativoVetor.txt' with linespoints title 'HeapSortIterativoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRe
-cursivoVetor','insertionsortIterativoLista.txt' with linespoints title 'insertionsortIterativoLista','InsertSortIterativoVetor.txt' with linespoints title 'InsertSortIterativoVetor','InsertSor
-tRecursivoVetor.txt' with linespoints title 'InsertSortRecursivoVetor','MergeSortIterativoVetor.txt' with linespoints title 'MergeSortIterativoVetor','MergeSortRecursivoVetor.txt' with linespo
-ints title 'MergeSortRecursivoVetor','QuickSortIterativoVetor.txt' with linespoints title 'QuickSortIterativoVetor','QuickSortRecursivoVetor.txt' with linespoints title 'QuickSortRecursivoVeto
-r','selectionsortLista.txt' with linespoints title 'selectionsortLista','SelectSortIterativoVetor.txt' with linespoints title 'SelectSortIterativoVetor','SelectSortRecursivoVetor.txt' with lin
-espoints title 'SelectSortRecursivoVetor'
-multiplot> gnuplot
-           ^
-           invalid command
-
-multiplot> back
-           ^
-           invalid command
-
-multiplot> plot
-               ^
-           function to plot expected
-
-multiplot> unset multiplot
-gnuplot> set multiplot
-multiplot> plot  'BubbleSortRecursivoVetor.txt' with linespoints title 'BubbleSortRecursivoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRecursivoVetor','InsertSortRecurs
-ivoVetor.txt' with linespoints title 'InsertSortRecursivoVetor','MergeSortRecursivoVetor.txt' with linespoints title 'MergeSortRecursivoVetor','QuickSortRecursivoVetor.txt' with linespoints ti
-tle 'QuickSortRecursivoVetor','selectionsortLista.txt' with linespoints title 'selectionsortLista','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor'             
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                         
-multiplot> unset multiplot
 gnuplot> set term png                                                                                                                                                                           
                                                                                                                                                                                                 
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
+                                                                                                           
 
 Terminal type is now 'png'
 Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "ComparacaoRecursivos.png"                                                                                                                                                  
+gnuplot> set output "ComparacaoIterativosVetorELista1.png"                                                                                                                                      
                                                                                                                                                                                                 
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
+                                                                                                           
 gnuplot> set grid                                                                                                                                                                               
                                                                                                                                                                                                 
+                                                                                              
+gnuplot> set title 'Comparacao Iterativos Vetor e Lista'                                                                                                                                        
                                                                                                                                                                                                 
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
-gnuplot> set title 'Comparacao Recursivos'                                                                                                                                                      
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
+                                                                                              
 gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
                                                                                                                                                                                                 
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
+                                                                                              
 gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
                                                                                                                                                                                                 
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
+                                                                                              
 gnuplot> set multiplot                                                                                                                                                                          
                                                                                                                                                                                                 
-                                                                                                                                                                                 
-multiplot> plot  'BubbleSortRecursivoVetor.txt' with linespoints title 'BubbleSortRecursivoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRecursivoVetor','InsertSortRecurs
-ivoVetor.txt' with linespoints title 'InsertSortRecursivoVetor','MergeSortRecursivoVetor.txt' with linespoints title 'MergeSortRecursivoVetor','QuickSortRecursivoVetor.txt' with linespoints ti
-tle 'QuickSortRecursivoVetor','selectionsortLista.txt' with linespoints title 'selectionsortLista','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor'
+                                                                                              
+multiplot> plot 'BubbleIterativoLista.txt' with linespoints title 'BubbleIterativoLista', 'BubbleIterativoVetor.txt' with linespoints title 'BubbleIterativoVetor','insertionsortIterativoLista.
+txt' with linespoints title 'insertionsortIterativoLista','InsertSortIterativoVetor.txt' with linespoints title 'InsertSortIterativoVetor','selectionsortLista.txt' with linespoints title 'sele
+ctionsortLista','SelectSortIterativoVetor.txt' with linespoints title 'SelectSortIterativoVetor'
 multiplot> unset multiplot                                                                                                                                                                      
                                                                                                                                                                                                 
-                                                                                                                                                                                   
+                                                                                                
 gnuplot> set term png                                                                                                                                                                           
                                                                                                                                                                                                 
-                                                                                                                                                                                 
+                                                                                              
 
 Terminal type is now 'png'
 Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "ComparacaoRecursivos1.png"                                                                                                                                                 
+gnuplot> set output "ComparacaoIterativosERecursivos1de2.png"                                                                                                                                   
                                                                                                                                                                                                 
-                                                                                                                                                                                 
+                                                                                              
+gnuplot> set title 'Comparacao Iterativos e Recursivos Vetor'                                                                                                                                   
+                                                                                                                                                                                                
+                                                                                              
 gnuplot> set grid                                                                                                                                                                               
                                                                                                                                                                                                 
-                                                                                                                                                                                 
-gnuplot> set title 'Comparacao Recursivos'                                                                                                                                                      
+                                                                                              
+gnuplot> set title 'Comparacao Iterativos e Recursivos Vetor'                                                                                                                                   
                                                                                                                                                                                                 
-                                                                                                                                                                                 
+                                                                                              
 gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
                                                                                                                                                                                                 
-                                                                                                                                                                                 
+                                                                                              
 gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
                                                                                                                                                                                                 
-                                                                                                                                                                                 
-gnuplot> plot  'BubbleSortRecursivoVetor.txt' with linespoints title 'BubbleSortRecursivoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRecursivoVetor','InsertSortRecursiv
-oVetor.txt' with linespoints title 'InsertSortRecursivoVetor','MergeSortRecursivoVetor.txt' with linespoints title 'MergeSortRecursivoVetor','QuickSortRecursivoVetor.txt' with linespoints titl
-e 'QuickSortRecursivoVetor','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor'
+                                                                                              
 gnuplot> set multiplot                                                                                                                                                                          
                                                                                                                                                                                                 
-                                                                                                                                                                                 
-multiplot> plot  'BubbleSortRecursivoVetor.txt' with linespoints title 'BubbleSortRecursivoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRecursivoVetor','InsertSortRecurs
-ivoVetor.txt' with linespoints title 'InsertSortRecursivoVetor','MergeSortRecursivoVetor.txt' with linespoints title 'MergeSortRecursivoVetor','QuickSortRecursivoVetor.txt' with linespoints ti
-tle 'QuickSortRecursivoVetor','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor'                
-multiplot> unset multiplot                                                                                                                                                                      
-                                                                                                                                                                                                
-                                                                                                                                                                                   
-gnuplot> set term png                                                                                                                                                                           
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "ComparacaoRecursivos2.png"                                                                                                                                                 
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set grid                                                                                                                                                                               
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set title 'Comparacao Recursivos'                                                                                                                                                      
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
-gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set multiplot                                                                                                                                                                          
-                                                                                                                                                                                                
-                                                                                                            
-multiplot> plot  'BubbleSortRecursivoVetor.txt' with linespoints title 'BubbleSortRecursivoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRecursivoVetor','InsertSortRecurs
-ivoVetor.txt' with linespoints title 'InsertSortRecursivoVetor','MergeSortRecursivoVetor.txt' with linespoints title 'MergeSortRecursivoVetor','QuickSortRecursivoVetor.txt' with linespoints ti
-tle 'QuickSortRecursivoVetor','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor'
-multiplot> unset multiplot                                                                                                                                                                      
-                                                                                                                                                                                                
-                                                                                                              
-gnuplot> set term png                                                                                                                                                                           
-                                                                                                                                                                                                
-                                                                                                            
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "ComparacaoIterativos.png"                                                                                                                                                  
-                                                                                                                                                                                                
-                                                                                                                                                                                 
-gnuplot> set grid                                                                                                                                                                               
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set title 'Comparacao Iterativos'                                                                                                                                                      
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
-                                                                                                                                                                                                
-                                                                                                            
-gnuplot> set multiplot                                                                                                                                                                          
-                                                                                                                                                                                                
-                                                                                                            
-multiplot> plot 'BubbleIterativoLista.txt' with linespoints title 'BubbleIterativoLista', 'BubbleIterativoVetor.txt' with linespoints title 'BubbleIterativoVetor','HeapSortIterativoVetor.txt' 
-with linespoints title 'HeapSortIterativoVetor','insertionsortIterativoLista.txt' with linespoints title 'insertionsortIterativoLista','InsertSortIterativoVetor.txt' with linespoints title 'In
-sertSortIterativoVetor','MergeSortIterativoVetor.txt' with linespoints title 'MergeSortIterativoVetor','QuickSortIterativoVetor.txt' with linespoints title 'QuickSortIterativoVetor','selection
-sortLista.txt' with linespoints title 'selectionsortLista','SelectSortIterativoVetor.txt' with linespoints title 'SelectSortIterativoVetor'
-multiplot> unset multiplot                                                                                                                                                                      
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                           
-gnuplot> gridset output "PRN"                                                                                                                                                                   
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                       
-         ^
-         invalid command
-
-gnuplot> screendump          
-                   ^
-         screendump not supported for terminal `png`
-
-gnuplot> show output
-
-        output is sent to 'ComparacaoIterativos.png'
-
-gnuplot> set term png                                                                                                                                                                           
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                         
-
-Terminal type is now 'png'
-Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "ComparacaoIterativosComRecursivos1.png"                                                                                                                                    
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                         
-gnuplot> set grid                                                                                                                                                                               
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                         
-gnuplot> set title 'Comparacao Iterativos e Recursivos 1'                                                                                                                                       
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                         
-gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                         
-gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                         
-gnuplot> set multiplot                                                                                                                                                                          
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                         
+                                                                                              
 multiplot> plot 'BubbleIterativoVetor.txt' with linespoints title 'BubbleIterativoVetor','BubbleSortRecursivoVetor.txt' with linespoints title 'BubbleSortRecursivoVetor','HeapSortIterativoVeto
 r.txt' with linespoints title 'HeapSortIterativoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRecursivoVetor','InsertSortIterativoVetor.txt' with linespoints title 'Inser
-tSortIterativoVetor','InsertSortRecursivoVetor.txt' with linespoints title 'InsertSortRecursivoVetor'                                                                                           
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-                                         
+tSortIterativoVetor','InsertSortRecursivoVetor.txt' with linespoints title 'InsertSortRecursivoVetor'
 multiplot> unset multiplot                                                                                                                                                                      
                                                                                                                                                                                                 
-                                                                                                                                                                                                
-                                                                                                                                           
+                                                                                                     
 gnuplot> set term png                                                                                                                                                                           
                                                                                                                                                                                                 
                                                                                                    
 
 Terminal type is now 'png'
 Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set output "ComparacaoIterativosComRecursivos2.png"                                                                                                                                    
+gnuplot> set output "ComparacaoIterativosERecursivos2de2.png"                                                                                                                                   
                                                                                                                                                                                                 
                                                                                                    
 gnuplot> set grid                                                                                                                                                                               
                                                                                                                                                                                                 
                                                                                                    
-gnuplot> set title 'Comparacao Iterativos e Recursivos 2'                                                                                                                                       
+gnuplot> set title 'Comparacao Iterativos e Recursivos Vetor'                                                                                                                                   
                                                                                                                                                                                                 
                                                                                                    
 gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
@@ -462,13 +82,12 @@ gnuplot> set xlabel 'Tamanho do Vetor'
 gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
                                                                                                                                                                                                 
                                                                                                    
-gnuplot> unset multiplot                                    
 gnuplot> set multiplot                                                                                                                                                                          
                                                                                                                                                                                                 
                                                                                                    
 multiplot> plot 'MergeSortIterativoVetor.txt' with linespoints title 'MergeSortIterativoVetor','MergeSortRecursivoVetor.txt' with linespoints title 'MergeSortRecursivoVetor','QuickSortIterativ
 oVetor.txt' with linespoints title 'QuickSortIterativoVetor','QuickSortRecursivoVetor.txt' with linespoints title 'QuickSortRecursivoVetor','SelectSortIterativoVetor.txt' with linespoints titl
-e 'SelectSortIterativoVetor','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor' 
+e 'SelectSortIterativoVetor','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor'
 multiplot> unset multiplot                                                                                                                                                                      
                                                                                                                                                                                                 
                                                                                                              
@@ -478,17 +97,13 @@ gnuplot> set term png
 
 Terminal type is now 'png'
 Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
-gnuplot> set title 'Comparacao Iterativos Vetor e Lista'                                                                                                                                        
+gnuplot> set output "ComparacaoIterativosVetor.png"                                                                                                                                             
                                                                                                                                                                                                 
                                                                                                            
 gnuplot> set grid                                                                                                                                                                               
                                                                                                                                                                                                 
                                                                                                            
-gnuplot> set output "ComparacaoIterativosVetorELista.png"                                                                                                                                       
-                                                                                                                                                                                                
-                                                                                                           
-gnuplot> set grid                                        
-gnuplot> set title 'Comparacao Iterativos Vetor e Lista'                                                                                                                                        
+gnuplot> set title 'Comparacao Iterativos Vetor'                                                                                                                                                
                                                                                                                                                                                                 
                                                                                                            
 gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
@@ -500,7 +115,64 @@ gnuplot> set ylabel 'Microsegundos'
 gnuplot> set multiplot                                                                                                                                                                          
                                                                                                                                                                                                 
                                                                                                            
-multiplot> plot 'BubbleIterativoLista.txt' with linespoints title 'BubbleIterativoLista', 'BubbleIterativoVetor.txt' with linespoints title 'BubbleIterativoVetor','insertionsortIterativoLista.
-txt' with linespoints title 'insertionsortIterativoLista','InsertSortIterativoVetor.txt' with linespoints title 'InsertSortIterativoVetor','selectionsortLista.txt' with linespoints title 'sele
-ctionsortLista','SelectSortIterativoVetor.txt' with linespoints title 'SelectSortIterativoVetor'
-multiplot> unset multiplot
+multiplot> plot  'BubbleIterativoVetor.txt' with linespoints title 'BubbleIterativoVetor','HeapSortIterativoVetor.txt' with linespoints title 'HeapSortIterativoVetor','InsertSortIterativoVetor
+.txt' with linespoints title 'InsertSortIterativoVetor','MergeSortIterativoVetor.txt' with linespoints title 'MergeSortIterativoVetor','QuickSortIterativoVetor.txt' with linespoints title 'Qui
+ckSortIterativoVetor','SelectSortIterativoVetor.txt' with linespoints title 'SelectSortIterativoVetor'
+multiplot> unset multiplot                                                                                                                                                                      
+                                                                                                                                                                                                
+                                                                                                      
+gnuplot> set term png                                                                                                                                                                           
+                                                                                                                                                                                                
+                                                                                                           
+
+Terminal type is now 'png'
+Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
+gnuplot> set output "ComparacaoIterativosVetor.png"                                                                                                                                             
+                                                                                                                                                                                                
+                                                                                                    
+gnuplot> set grid                                                                                                                                                                               
+                                                                                                                                                                                                
+                                                                                                           
+gnuplot> set title 'Comparacao Iterativos Vetor'                                                                                                                                                
+                                                                                                                                                                                                
+                                                                                                           
+gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
+                                                                                                                                                                                                
+                                                                                                    
+gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
+                                                                                                                                                                                                
+                                                                                                    
+gnuplot> set multiplot                                                                                                                                                                          
+                                                                                                                                                                                                
+                                                                                                    
+multiplot> plot  'BubbleIterativoVetor.txt' with linespoints title 'BubbleIterativoVetor','HeapSortIterativoVetor.txt' with linespoints title 'HeapSortIterativoVetor','InsertSortIterativoVetor
+.txt' with linespoints title 'InsertSortIterativoVetor','MergeSortIterativoVetor.txt' with linespoints title 'MergeSortIterativoVetor','QuickSortIterativoVetor.txt' with linespoints title 'Qui
+ckSortIterativoVetor','SelectSortIterativoVetor.txt' with linespoints title 'SelectSortIterativoVetor'
+multiplot> unset multiplot                                                                                                                                                                      
+                                                                                                                                                                                                
+                                                                                                      
+gnuplot> set term png                                                                                                                                                                           
+                                                                                                                                                                                                
+                                                                                                           
+
+Terminal type is now 'png'
+Options are 'nocrop enhanced size 640,480 font "arial,12.0" '
+gnuplot> set output "ComparacaoRecursivosVetor.png"                                                                                                                                             
+                                                                                                                                                                                                
+                                                                                                    
+gnuplot> set grid                                                                                                                                                                               
+                                                                                                                                                                                                
+                                                                                                    
+gnuplot> set title 'Comparacao Recursivos Vetor'                                                                                                                                                
+                                                                                                                                                                                                
+                                                                                                    
+gnuplot> set xlabel 'Tamanho do Vetor'                                                                                                                                                          
+                                                                                                                                                                                                
+                                                                                                    
+gnuplot> set ylabel 'Microsegundos'                                                                                                                                                             
+                                                                                                                                                                                                
+                                                                                                           
+gnuplot> plot  'BubbleSortRecursivoVetor.txt' with linespoints title 'BubbleSortRecursivoVetor','HeapSortRecursivoVetor.txt' with linespoints title 'HeapSortRecursivoVetor','InsertSortRecursiv
+oVetor.txt' with linespoints title 'InsertSortRecursivoVetor','MergeSortRecursivoVetor.txt' with linespoints title 'MergeSortRecursivoVetor','QuickSortRecursivoVetor.txt' with linespoints titl
+e 'QuickSortRecursivoVetor','SelectSortRecursivoVetor.txt' with linespoints title 'SelectSortRecursivoVetor'
+gnuplot> unset multiplot
